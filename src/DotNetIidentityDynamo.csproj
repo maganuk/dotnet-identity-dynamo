@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>LiteBorder.AspNetCore.Identity.DynamoDb</PackageId>
+    <TargetFramework>net5.0</TargetFramework>
+    <Description>ASP.NET Core Identity Provider that uses DynamoDb</Description>
+    <Authors>Vishal Rastogi</Authors>
+    <AssemblyName>LiteBorder.AspNetCore.Identity.DynamoDb</AssemblyName>
+    <PackageTags>ASP.NET;Security;Identity;DynamoDb</PackageTags>
+    <PackageProjectUrl>https://github.com/liteborder/dotnet-identity-dynamo</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RootNamespace>LiteBorder.AspNetCore.Identity.DynamoDb</RootNamespace>
+    <AssemblyName>LiteBorder.AspNetCore.Identity.DynamoDb</AssemblyName>  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.5.4.11" />
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.101" />
+    <PackageReference Include="IdentityServer4.AspNetIdentity" Version="4.1.1" />
+  </ItemGroup>
+
+</Project>
